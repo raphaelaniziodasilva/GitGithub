@@ -13,11 +13,15 @@ Salvando arquivos
 Visualizando o status dos arquivos
     git status
 Visualizando todas as alterações feitas
+    git log
     git log -p
     link do git log https://devhints.io/git-log
 Ingnorando arquivos com gitignore
     crie uma pasta chamada .gitignore e dentro dela coloque os arquivos ou pasta e depois adicione e commite o arquivo gitignore
     git log --oneline
+
+Branches ("ramos") são utilizados para desenvolver funcionalidades isoladas umas das outras. A branch master é a branch "padrão" quando você cria um repositório.
+É interessante separar o desenvolvimento de funcionalidades em branches diferentes, para que as mudanças no código, para um ramo, não influencie no funcionamento de outro.
 
 Branches:
     git branch --> vai dizer qual branch temos no momento so temos a main
@@ -25,5 +29,11 @@ Branches:
     git branch --> vai nos mostrar as duas branch a main e a titulo que criamos
     git checkout titulo --> mudando para a branch titulo, agora estamos dentro da branch titulo
 
-    A partir de agora estamos no ramo de desenvolvimento na linha de desenvolvimento titulo!
+    A partir de agora estamos no ramo de desenvolvimento titulo!
+    aqui dentro da branch titulo podemos fazer as nossas modificações referentes sobre o titulo, se por caso agente for trabalhar na parte da aplicação devemos criar outra branch com o nome dessa parte assim evitamos conflitos
+
+Unindo o trabalho: git merge
+Com a branch titulo e main finalizada vamos utilizar o git merge para unir a branch titulo com a branch main
+va para a branch main
+    git checkout main --> mudando para a branch main
     
