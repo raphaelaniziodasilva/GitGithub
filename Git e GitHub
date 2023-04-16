@@ -13,13 +13,10 @@ Salvando arquivos
 Visualizando o status dos arquivos
     git status
 Visualizando todas as alterações feitas
+    git log
     git log -p
     link do git log https://devhints.io/git-log
 Ingnorando arquivos com gitignore
     crie uma pasta chamada .gitignore e dentro dela coloque os arquivos ou pasta e depois adicione e commite o arquivo gitignore
     git log --oneline
 
-Unindo o trabalho
-com a branch titulo e main finalizadas vamos trazer os dados da brach titulo para a main
-    git merge titulo --> unindo a branch titulo com a main
-    
