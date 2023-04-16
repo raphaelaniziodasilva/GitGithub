@@ -1,0 +1,21 @@
+COMANDOS:
+comandos de configuração
+Com o git config nos podemos modificar ou visualizar configurações para cada projeto utilizando o parametro local ou global, vamos modificar as configurações desse projeto o local
+    git config --local user.name "Seu nome aqui"
+    git config --local user.email "seu@email.aqui"
+Visualizando as configurações que foram salvas
+    git config user.email
+    git config user.name
+Adicionando arquivos
+    git add .
+Salvando arquivos
+    git commit -m"NOME DA CRIAÇÃO OU ALTERAÇÃO"
+Visualizando o status dos arquivos
+    git status
+Visualizando todas as alterações feitas
+    git log -p
+    link do git log https://devhints.io/git-log
+Ingnorando arquivos com gitignore
+    crie uma pasta chamada .gitignore e dentro dela coloque os arquivos ou pasta e depois adicione e commite o arquivo gitignore
+    git log --oneline
+
