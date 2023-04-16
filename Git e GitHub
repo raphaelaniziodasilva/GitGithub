@@ -19,3 +19,11 @@ Ingnorando arquivos com gitignore
     crie uma pasta chamada .gitignore e dentro dela coloque os arquivos ou pasta e depois adicione e commite o arquivo gitignore
     git log --oneline
 
+Branches:
+    git branch --> vai dizer qual branch temos no momento so temos a main
+    git branch titulo --> criando uma branch chamada titulo pois e onde vamos trabalhar
+    git branch --> vai nos mostrar as duas branch a main e a titulo que criamos
+    git checkout titulo --> mudando para a branch titulo, agora estamos dentro da branch titulo
+
+    A partir de agora estamos no ramo de desenvolvimento na linha de desenvolvimento titulo!
+    
