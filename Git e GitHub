@@ -19,4 +19,3 @@ Visualizando todas as alterações feitas
 Ingnorando arquivos com gitignore
     crie uma pasta chamada .gitignore e dentro dela coloque os arquivos ou pasta e depois adicione e commite o arquivo gitignore
     git log --oneline
-
