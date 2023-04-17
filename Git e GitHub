@@ -50,6 +50,12 @@ criando branch titulo e vamos fazer alterações
     git checkout main --> mudando para a branch main
     git rebase titulo --> unindo a branch titulo com a main: master
 
+Resolvendo conflitos:
+antes de enviar qualquer dado ou alteração nos precisamos garantir que estamos trabalhando com a versão mais nova do codigo ou seja antes de enviar precisamos trazer a versão mais nova do codigo
+    git pull
+
+
+
 
 
 
