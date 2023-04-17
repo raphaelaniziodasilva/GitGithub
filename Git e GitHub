@@ -65,7 +65,19 @@ desfazendo alterações que foram feitas no arquivo index.html depois do commit
     git revert 6bb1de1a935109242c36ba174e5305db734a5cda
 
 
+Guardando para depois:
+    git stash --> para guardar um trabalho para retomá-lo posteriormente
+    git stash list --> para visualizar quais alterações estão na stash
+    git stash pop --> aplica e remove a última alteração que foi adicionada na stash
 
+Viajando no tempo:
+    git log --oneline --> para ver os commits de forma resumida
+    Copie o hash do commit 
+    git checkout {hash} substituindo {hash} pelo hash que você copiou;
 
+Vendo as alterações:
+    git log --oneline --> para ver os commits de forma resumida
+    git diff --> vai mostrar a diferença entre os commites  
+    git diff dd9d5db..999d773 --> hash do commit dd9d5db
 
-
+Tags e releases:
