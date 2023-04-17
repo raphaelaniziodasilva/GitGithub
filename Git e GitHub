@@ -1,4 +1,4 @@
-COMANDOS:
+COMMANDOS:
 comandos de configuração
 Com o git config nos podemos modificar ou visualizar configurações para cada projeto utilizando o parametro local ou global, vamos modificar as configurações desse projeto o local
     git config --local user.name "Seu nome aqui"
@@ -54,6 +54,15 @@ Resolvendo conflitos:
 antes de enviar qualquer dado ou alteração nos precisamos garantir que estamos trabalhando com a versão mais nova do codigo ou seja antes de enviar precisamos trazer a versão mais nova do codigo
     git pull
 
+Ctrl + Z no Git, disfazendo alterações e commits feitos:
+desfazendo alterações que foram feitas no arquivo index.html antes de add
+    git restore index.html
+desfazendo alterações que foram feitas no arquivo index.html depois do add
+    git restore --staged index.html
+desfazendo alterações que foram feitas no arquivo index.html depois do commit
+    git log --> pegue a hash do commit: 6bb1de1a935109242c36ba174e5305db734a5cda
+    para desfazer o commit utilizando a hash do commit
+    git revert 6bb1de1a935109242c36ba174e5305db734a5cda
 
 
 
