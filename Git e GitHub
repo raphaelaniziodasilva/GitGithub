@@ -33,8 +33,22 @@ Branches:
     aqui dentro da branch titulo podemos fazer as nossas modificações referentes sobre o titulo, se por caso agente for trabalhar na parte da aplicação devemos criar outra branch com o nome dessa parte assim evitamos conflitos
 
 Unindo o trabalho: git merge
-Com a branch titulo e main finalizada vamos utilizar o git merge para unir a branch titulo com a branch main
+Com a branch titulo e main: master finalizada vamos utilizar o git merge para unir a branch titulo com a branch main
 va para a branch main
     git checkout main --> mudando para a branch main
     git merge titulo --> unindo a branch titulo com a main
- 
+
+Atualizando a branch:
+vamos atualizar a branch main: master com os commits da branch titulo e juntar atualizando as duas branches
+criando branch titulo e vamos fazer alterações
+    git branch titulo --> criando a branch titulo
+    git checkout titulo --> mudando para a branch titulo, e fazendo alterações
+
+    com as alterações feitas e finalizadas, vamos para a branch main: master e atualizar, trazer os commites do titulo para a branch master
+    git checkout main --> mudando para a branch main
+    git rebase titulo --> unindo a branch titulo com a main: master
+
+
+
+
+
