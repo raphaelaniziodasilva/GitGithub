@@ -43,7 +43,9 @@ vamos atualizar a branch main: master com os commits da branch titulo e juntar a
 criando branch titulo e vamos fazer alterações
     git branch titulo --> criando a branch titulo
     git checkout titulo --> mudando para a branch titulo, e fazendo alterações
-
+    git add .
+    git commit -m""
+    
     com as alterações feitas e finalizadas, vamos para a branch main: master e atualizar, trazer os commites do titulo para a branch master
     git checkout main --> mudando para a branch main
     git rebase titulo --> unindo a branch titulo com a main: master
