@@ -1,0 +1,36 @@
+Removendo arquivos da área de stage:
+    depois que dermos o git add . enviamos os arquivos para área de stage e para retornamos para o estado anterior antes do git add . usamos o:
+        git status
+        git reset
+
+Desfazendo modificações não salvas:
+    voltando para o ultimo commit para poder começar tudo de novo
+        git status
+        caso voce ja tenha dado git add .
+        git reset
+        git clean -df
+        git checkout -- .
+        git status
+
+O que fazer quando abre o editor VIM:
+    ações que pode abrir o editor VIM no terminal
+    - fazer commit sem mensagem
+    - fazer um merge de três vias
+        habilitar o modo de ediçao
+          aperte a tecla:  i
+          vai abrir o Insert em baixo: adicione a mensagem para salvar
+        sair do VIM, salvando as alterações
+            <ESC>
+            :wq
+            <Enter>
+        sair do VIM, sem salvar as alterações
+            <ESC>
+            :q!
+            <Enter>
+
+Deletando último commit sem deletar modificações nos arquivos:
+
+        
+
+
+

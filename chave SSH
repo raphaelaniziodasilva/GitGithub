@@ -1,0 +1,21 @@
+Configurar chave SSH no Github:
+    para gerar a chave ssh acesse:
+        https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=windows
+        
+        abra o gitbash e adicione:
+            ssh-keygen -t ed25519 -C "your_email@example.com"
+            substitua o email por o email de cadastro do github
+            aceite a sugestão de salvar a pasta aperte enter
+            crie a sua senha da chave ssh ou aperte enter e não precisara de senha
+            aperte enter denovo
+            ja foi gerado a sua chave ssh no seu computador
+        
+    Vamos cadastrar a chave ssh no github
+        agora va para a pasta .ssh aonde esta salvo a chave ssh
+        acesse a sua pagina do GitHub clique na opção Settings que esta no menuzinho do canto direito
+            no canto esquerdo clique em SSH and GPG keys
+            agora cadastre a nova chave ssh
+            em SSH keys clique em new SSH key
+            adicione o titulo
+            adiione a key publica que esta na pasta .ssh
+            agora clique em Add SSH key
