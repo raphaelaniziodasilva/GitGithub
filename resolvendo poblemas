@@ -29,8 +29,26 @@ O que fazer quando abre o editor VIM:
             <Enter>
 
 Deletando último commit sem deletar modificações nos arquivos:
+    como desfazer o último commit sem desfazer as modificaçoes nos arquivos
+        git status
+        git reset --soft HEAD~1
 
-        
+Deletando commits e também modificações nos arquivos:
+    voltar o projeto ao estado de um dado commit (deletar comiits e alteraçeos posteriores a esse commit)
+        git status
+        git reset --hard <código do commit>
+    voltar o projeto ao estado do penúltimo commit
+        git status
+        git reset --hard HEAD~1
+
+Como atualizar o repositório local em relação ao remoto:
+    git status
+    git pull <nome do remote> <nome da branch>
+
+Resolvendo pull com conflito:
+    Analise do código fonte
+    faça edicoes necessarias
+    faça um novo commit
 
 
 
